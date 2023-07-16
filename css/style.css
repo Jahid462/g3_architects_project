@@ -1,11 +1,88 @@
-*{
+/* ---------Default Style--------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1920px;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+.btn_primary{
+    color: #fff;
+    background-color: #FF900E;
+    padding: 18px 22px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin: 20px 0;
+    cursor: pointer;
+}
 
 
 
+/* ---------Header Section-------------- */
+
+.header {
+    background-color: #ff900e1a;
+
+}
+.header_container{
+    padding: 50px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo h1{
+    font-size: 2.90rem;
+    font-weight: 700;
+}
+.menus ul{
+    display: flex;
+    align-items: center;
+}
+.menus ul li{
+    margin-left: 50px;
+}
+.menus ul li:first-child{
+    margin-left: 0;
+}
+.menus ul li a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #424242;
+}
+.banner_section{
+    text-align: center;
+    margin-top: 150px;
+}
+.banner_section img{
+    max-width: 100%;
+}
+.banner_title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+.banner_description{
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
